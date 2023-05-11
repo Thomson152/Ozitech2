@@ -3,14 +3,14 @@ import arrow from "../assets/arrow.svg";
 
 const Hero = () => {
   return (
-    <div className="flex container mt-[10rem] boreder justify-between">
-      <div className="w-[50%] text-left px-14  justify-center  flex flex-col text-white">
-        <h1 className="text-[40px]">Welcome to</h1>
-        <h2 className="text-[70px] ">OZITECH GROUP</h2>
+    <div className="flex container mx-auto mt-[5rem] md:mt-[10rem] px-4">
+      <div className="md:w-[50%] sm:w-[100%] w-[100%] md:text-left   justify-center  flex  flex-col  text-white">
+        <h1 className="md:text-[40px] sm:text-[30px] text-[25px]">Welcome to</h1>
+        <h2 className="md:text-[70px] sm:text-[30px] text-[40px] ">OZITECH GROUP</h2>
 
-        <div className=" text-white  text-[30px]  mt-3 ">
-          <p className="  ">professional</p>
-          <p>IT and Software development agency</p>
+        <div className=" text-white md:text-[30px] text-[25px] mt-3 ">
+          <p >professional</p>
+          <p className="">IT and Software development agency</p>
         </div>
 
         <div className=" mt-16 ">

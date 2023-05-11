@@ -8,7 +8,7 @@ const About = () => {
   return (
     <div className="overflow-hidden relative">
       <img src={triangle} className="absolute top-[]  h-[166.76px]" />
-      <div className="flex justify-between  container mx-auto items-center  ">
+      <div className="flex justify-between flex-col md:flex-row container mx-auto items-center ">
         <div className="w-[50%] mt-[3rem]">
           <div className="flex items-center flex-col ">
             <h1 className="my-8 text-[50px] font-semibold">ABOUT US</h1>

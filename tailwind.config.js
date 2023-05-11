@@ -10,7 +10,8 @@ export default {
 
     extend: {
       colors:{
-        bgDark : 'rgba(28, 24, 24, 0.8)'
+        bgDark : 'rgba(28, 24, 24, 0.8)',
+        NavBg : 'rgba(255, 255, 255, 0.1)'
       },
     },
   },
