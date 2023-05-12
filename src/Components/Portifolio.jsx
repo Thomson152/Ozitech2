@@ -1,9 +1,9 @@
-import portfolio1 from "../assets/Portfolio Item 1.png";
-import portfolio2 from "../assets/Portfolio Item 2.png";
-import portfolio3 from "../assets/Portfolio Item 3.png";
-import portfolio4 from "../assets/Portfolio Item 4.png";
-import portfolio5 from "../assets/Portfolio Item 5.png";
-import portfolio6 from "../assets/Portfolio Item 6.png";
+import portfolio1 from "../assets/PortfolioItem1.png";
+import portfolio2 from "../assets/PortfolioItem2.png";
+import portfolio3 from "../assets/PortfolioItem3.png";
+import portfolio4 from "../assets/PortfolioItem4.png";
+import portfolio5 from "../assets/PortfolioItem5.png";
+import portfolio6 from "../assets/PortfolioItem6.png";
 const Portifolio = () => {
   return (
     <div className="mt-24 bg-[#000]">
