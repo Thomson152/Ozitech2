@@ -2,12 +2,15 @@
 
 import AboutImg from "../assets/AboutImg.png";
 import check from "../assets/check.svg";
-import triangle from "../assets/triangle.svg";
+import triangle from "../assets/triangle.png";
 
 const About = () => {
   return (
     <div className="overflow-hidden relative">
-      <img src={triangle} className="absolute top-[]  h-[166.76px]" />
+      <img
+        src={triangle}
+        className="absolute top-[-2rem]  "
+      />
       <div className="flex justify-between flex-col md:flex-row container mx-auto items-center ">
         <div className="w-[50%] mt-[3rem]">
           <div className="flex items-center flex-col ">

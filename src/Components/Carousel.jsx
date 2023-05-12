@@ -2,6 +2,7 @@ import Card2 from "./Card2";
 import left from "../assets/Frame 7.png";
 import right from "../assets/Frame 8.png";
 
+
 const Carousel = () => {
   const scrollLeft = () => {
     document.getElementById("content").scrollLeft -= 400;
@@ -11,8 +12,9 @@ const Carousel = () => {
   };
   return (
     <div className="relative">
-      <div className="mt-[3rem] flex items-center justify-between">
-        <div className="pl-3">
+      
+      <div className="mt-[3rem]  flex items-center justify-between">
+        <div className="pl-10">
           <h1 className="text-[50px] font-semibold ">TESTIMONIAL</h1>
           <div className="">
             <p className="text-[20px] font-normal">
