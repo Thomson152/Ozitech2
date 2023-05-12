@@ -73,7 +73,8 @@ const Portifolio = () => {
                 className="object-contain h-[357.77px] w-[600px]"
                 alt=""
               />
-              <div className="absolute left-[3rem] top-[13rem] w-[420.98px] h-[104.18px]  rounded-md pt-5 pl-10  bg-bgDark ">
+              <div className="absolute left-[2rem] top-[13rem] w-[420.98px] h-[104.18px]  
+              rounded-md pt-5 pl-10  bg-bgDark ">
                 <h1 className="text-[19px] font-semibold  text-white">
                   Scoop Divers
                 </h1>
@@ -89,7 +90,7 @@ const Portifolio = () => {
                 className="h-[357.77px]  object-contain w-[600px]"
                 alt=""
               />
-              <div className="absolute left-[3rem] top-[13rem] w-[420.98px] h-[104.18px]  rounded-md pt-5 pl-10  bg-bgDark ">
+              <div className="absolute left-[2rem] top-[13rem] w-[420.98px] h-[104.18px]  rounded-md pt-5 pl-10  bg-bgDark ">
                 <h1 className="text-[19px] font-semibold  text-white">
                   Elope payment
                 </h1>
@@ -109,7 +110,7 @@ const Portifolio = () => {
 
             <div className="absolute w-[531px] h-[132.35px]  rounded-md pt-5 pl-10  bg-bgDark top-[35rem] left-9">
               <h1 className="text-[23px] font-semibold  text-white">
-              Sushi Restaurant
+                Sushi Restaurant
               </h1>
               <p className="text-[19px]  max-w-[27rem]  text-white ">
                 Lorem ipsum dolor sit amet consectetur. Ornare. Lorem ipsum

@@ -7,6 +7,9 @@
     padding: 0;
 
 }
+::-webkit-scrollbar {
+    display: none;
+  }
 
 .background{
     background: url('./assets/unsplash_ourQHRTE2IM.png');
@@ -27,4 +30,11 @@
     background-size: cover;
     width: 100%;
     height: 1000px;
+}
+
+.background4{
+    background: url('./assets//Background4.png');
+    background-size: cover;
+    width: 100%;
+    height: 592.62px;
 }

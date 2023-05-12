@@ -1,9 +1,11 @@
-
+import Carousel from "./Carousel";
 
 const Testimonials = () => {
   return (
-    <div>Testimonials</div>
-  )
-}
+    <div className="container mx-auto  ">
+     <Carousel/>
+    </div>
+  );
+};
 
-export default Testimonials
+export default Testimonials;

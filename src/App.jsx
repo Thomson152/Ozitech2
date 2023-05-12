@@ -3,6 +3,11 @@ import Navbar from "./Components/Navbar";
 import About from "./Components/About";
 import Portifolio from "./Components/Portifolio";
 import Services from "./Components/Services";
+import Testimonials from "./Components/Testimonials";
+import Brands from "./Components/Brands";
+import Consutation from "./Components/Consutation";
+import Footer from "./Components/Footer";
+
 
 const App = () => {
   return (
@@ -10,7 +15,12 @@ const App = () => {
       <Navbar />
       <About />
        <Portifolio/>
-      <Services/> 
+      <Services/>
+      <Testimonials/>
+      <Brands/>
+      <Consutation/>
+      <Footer/>
+     
     </div>
   );
 };
