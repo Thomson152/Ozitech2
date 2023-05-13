@@ -58,7 +58,7 @@ const data = [
 
 const Card = () => {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-3 gap-y-9">
+    <div className="grid grid-cols-1 sm:grid-cols-2 px-5 md:grid-cols-3 gap-x-5 gap-y-9">
       {data.map(({ id, img, title, description }) => {
         return (
           <div
@@ -69,13 +69,13 @@ const Card = () => {
               <img src={img} alt="" />
             </div>
             <div className="pt-1">
-              <h1 className="text-[20px] font-semibold">{title}</h1>
+              <h1 className="text-[20px] WorkSans font-semibold">{title}</h1>
             </div>
             <div className="">
-              <p className="text-[18px]   pt-1 font-normal">{description}</p>
+              <p className="text-[18px] WorkSans  pt-1 font-normal">{description}</p>
             </div>
             <div className="mt-10">
-              <a href="" className="px-5 py-2 border-black border rounded-md">Learn More</a>
+              <a href="" className="px-5 py-2 WorkSans border-black border rounded-md">Learn More</a>
             </div>
           </div>
         );

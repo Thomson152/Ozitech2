@@ -1,17 +1,27 @@
-/** @type {import('tailwindcss').Config} */
-export default {
-  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
-  theme: {
-    xs: "360px",
-    sm: "460px",
-    md: "768px",
-    lg: "976px",
-    xl: "1440px",
+/**
+ * @format
+ * @type {import('tailwindcss').Config}
+ */
 
+module.exports = {
+  content: ["./src/**/*.{js,jsx,ts,tsx}"],
+
+  theme: {
     extend: {
-      colors:{
-        bgDark : 'rgba(28, 24, 24, 0.8)',
-        NavBg : 'rgba(255, 255, 255, 0.1)'
+      screens: {
+        sm: "640px",
+        md: "1000px",
+        lg: "1280px",
+        xl: "1440px",
+        laptop: "1024px",
+        tablet: "1086px",
+        testing:'1164px',
+        desktop: "1280px",
+      },
+
+      colors: {
+        bgDark: "rgba(28, 24, 24, 0.8)",
+        NavBg: "rgba(255, 255, 255, 0.1)",
       },
     },
   },
